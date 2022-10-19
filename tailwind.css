@@ -1,0 +1,107 @@
+/*
+    Theme Name: ACAEAM
+    Author: Júlio Freitas
+    Description: Tema construído para a ACAEAM
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Assistant', sans-serif;
+}
+
+/*
+    Swiper
+*/
+.swiper {
+    width: 450px;
+    height: 500px;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.swiper-slide:nth-child(1n) {
+    @apply bg-primary-off-white;
+}
+
+.swiper-slide:nth-child(2n) {
+    @apply bg-primary-off-white;
+}
+
+.swiper-slide:nth-child(3n) {
+    @apply bg-primary-off-white;
+}
+
+.swiper-slide:nth-child(4n) {
+    @apply bg-primary-off-white;
+}
+
+.swiper-slide:nth-child(5n) {
+    @apply bg-primary-off-white;
+}
+
+.swiper-slide:nth-child(6n) {
+    @apply bg-primary-off-white;
+}
+
+.swiper-slide:nth-child(7n) {
+    @apply bg-primary-off-white;
+}
+
+.swiper-slide:nth-child(8n) {
+    @apply bg-primary-off-white;
+}
+
+.swiper-slide:nth-child(9n) {
+    @apply bg-primary-off-white;
+}
+
+.swiper-slide:nth-child(10n) {
+    @apply bg-primary-off-white;
+}
+
+.swiper-brand {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide-brand {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide-brand img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
