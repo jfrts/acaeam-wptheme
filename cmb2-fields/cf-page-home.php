@@ -123,6 +123,7 @@ function cmb2_cf_home() {
         "id" => "home_box_blog",
         "title" => "Blog",
         "object_types" => ["page"],
+        'priority' => 'high',
         "show_on" => [
             "key" => "page_template",
             "value" => "page-home.php"
@@ -130,13 +131,13 @@ function cmb2_cf_home() {
     ]);
 
     $cmb_blog->add_field([
-        "id" => "blog_title",
-        "name" => "Título",
+        "id" => "_cmb2_blog_title",
+        "name" => "Titulo",
         "type" => "text",
     ]);
 
     $cmb_blog->add_field([
-        "id" => "blog_description",
+        "id" => "_cmb2_blog_description",
         "name" => "Descrição",
         "type" => "textarea",
     ]);

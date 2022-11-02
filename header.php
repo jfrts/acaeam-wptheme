@@ -32,7 +32,7 @@
         <header class="px-4 container mx-auto max-w-6xl">
             <nav class="px-2 sm:px-4 py-4">
                 <div class="container flex relative flex-wrap justify-between items-center mx-auto">
-                    <a href="#" class="flex items-center gap-3">
+                    <a href="<?= home_url() ?>" class="flex items-center gap-3">
                         <img src="<?= get_theme_file_uri("assets/img/logo-acaeam.svg"); ?>" alt="Logo ACAEAM" class="w-11">
                         <span class="text-gray-900 text-xl font-bold whitespace-nowrap">ACAEAM</span>
                     </a>

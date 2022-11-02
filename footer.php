@@ -44,6 +44,14 @@
         },
       });
     </script>
+    <script>
+      var swiper = new Swiper(".projectsSlide", {
+        pagination: {
+          el: ".swiper-pagination",
+          dynamicBullets: true,
+        },
+      });
+    </script>
 
     <?php wp_footer(); ?>
 </body>
