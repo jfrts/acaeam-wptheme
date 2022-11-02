@@ -105,3 +105,33 @@ body {
     font-size: 16px;
     line-height: 135%;
 }
+
+/* Menu */
+#menu-menu-principal {
+    @apply flex;
+    @apply flex-col;
+    @apply bg-primary-off-white;
+    @apply mt-4;
+    @apply rounded-md;
+    @apply p-4;
+    @apply md:flex-row;
+    @apply md:gap-12;
+    @apply md:bg-white;
+    @apply md:mt-0;
+}
+
+#menu-menu-principal li {
+    @apply border-b; 
+    @apply border-primary-color-tint;
+    @apply pt-0; 
+    @apply py-4;
+    @apply md:border-0; 
+    @apply md:py-0;
+}
+
+#menu-menu-principal a {
+    @apply font-bold;
+    @apply text-primary-color-shade;
+    @apply hover:text-primary-color;
+    @apply transition-all;
+}
