@@ -1,7 +1,8 @@
 <?php
 
-add_filter('use_block_editor_for_post', '__return_false', 10);
-add_theme_support('post-thumbnails');
+add_filter("use_block_editor_for_post", "__return_false", 10);
+add_theme_support("post-thumbnails");
+add_theme_support("menus");
 
 function get_field($key, $isList = true) {
     return get_post_meta(get_the_ID(), $key, $isList);
@@ -30,8 +31,7 @@ function create_custom_post_type() {
         'show_in_rest' => true,
     ]);
 };
-
-add_action('init', 'create_custom_post_type');
+add_action("init", "create_custom_post_type");
 
 require_once(get_template_directory() . "/cmb2-fields/cf-page-home.php");
 require_once(get_template_directory() . "/cmb2-fields/cf-projects.php");
