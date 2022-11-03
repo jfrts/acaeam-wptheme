@@ -9,8 +9,8 @@ function cmb2_cf_home() {
         "title" => "Slide",
         "object_types" => ["page"],
         "show_on" => [
-            "key" => "page_template",
-            "value" => "page-home.php"
+            "key" => "page-template",
+            "value" => "cf-page-home.php"
         ],
     ]);
 
@@ -78,8 +78,8 @@ function cmb2_cf_home() {
         "title" => "Projetos",
         "object_types" => ["page"],
         "show_on" => [
-            "key" => "page_template",
-            "value" => "page-home.php"
+            "key" => "page-template",
+            "value" => "cf-page-home.php"
         ],
     ]);
 
@@ -101,8 +101,8 @@ function cmb2_cf_home() {
         "title" => "Arquivos",
         "object_types" => ["page"],
         "show_on" => [
-            "key" => "page_template",
-            "value" => "page-home.php"
+            "key" => "page-template",
+            "value" => "cf-page-home.php"
         ],
     ]);
 
@@ -125,8 +125,8 @@ function cmb2_cf_home() {
         "object_types" => ["page"],
         'priority' => 'high',
         "show_on" => [
-            "key" => "page_template",
-            "value" => "page-home.php"
+            "key" => "page-template",
+            "value" => "cf-page-home.php"
         ],
     ]);
 
@@ -148,8 +148,8 @@ function cmb2_cf_home() {
         "title" => "Patrocinadores",
         "object_types" => ["page"],
         "show_on" => [
-            "key" => "page_template",
-            "value" => "page-home.php"
+            "key" => "page-template",
+            "value" => "cf-page-home.php"
         ],
     ]);
 
