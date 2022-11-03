@@ -1,6 +1,6 @@
 <?php
 
-add_action("cmb2_admin_init", "cmb2_cf_home");
+add_action("cmb2_init", "cmb2_cf_home");
 
 function cmb2_cf_home() {
     // SLIDE
@@ -9,8 +9,8 @@ function cmb2_cf_home() {
         "title" => "Slide",
         "object_types" => ["page"],
         "show_on" => [
-            "key" => "page-template",
-            "value" => "cf-page-home.php"
+            "key" => "id",
+            "value" => "7"
         ],
     ]);
 
@@ -69,7 +69,7 @@ function cmb2_cf_home() {
         "query_args" => [
             "type" => ["image/jpeg", "image/png"],
         ],
-        "preview_size" => "large", // Image size to use when previewing in the admin.
+        "preview_size" => "large",
     ]);
 
     // PROJECTS
@@ -78,8 +78,8 @@ function cmb2_cf_home() {
         "title" => "Projetos",
         "object_types" => ["page"],
         "show_on" => [
-            "key" => "page-template",
-            "value" => "cf-page-home.php"
+            "key" => "id",
+            "value" => "7"
         ],
     ]);
 
@@ -101,8 +101,8 @@ function cmb2_cf_home() {
         "title" => "Arquivos",
         "object_types" => ["page"],
         "show_on" => [
-            "key" => "page-template",
-            "value" => "cf-page-home.php"
+            "key" => "id",
+            "value" => "7"
         ],
     ]);
 
@@ -125,8 +125,8 @@ function cmb2_cf_home() {
         "object_types" => ["page"],
         'priority' => 'high',
         "show_on" => [
-            "key" => "page-template",
-            "value" => "cf-page-home.php"
+            "key" => "id",
+            "value" => "7"
         ],
     ]);
 
@@ -148,8 +148,8 @@ function cmb2_cf_home() {
         "title" => "Patrocinadores",
         "object_types" => ["page"],
         "show_on" => [
-            "key" => "page-template",
-            "value" => "cf-page-home.php"
+            "key" => "id",
+            "value" => "7"
         ],
     ]);
 

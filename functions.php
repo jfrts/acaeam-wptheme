@@ -40,6 +40,7 @@ function register_my_menu() {
 add_action("init", "register_my_menu");
 
 require_once(get_template_directory() . "/cmb2-fields/cf-page-home.php");
+require_once(get_template_directory() . "/cmb2-fields/cf-page-contact.php");
 require_once(get_template_directory() . "/cmb2-fields/cf-projects.php");
 require_once(get_template_directory() . "/cmb2-fields/cf-files.php");
 

@@ -42,17 +42,16 @@
                 <img src="<?php the_post_thumbnail_url() ?>" class="object-cover w-full h-64" alt="" />
 
                 <div class="py-8 px-5 border border-t-0">
-                    <a href="/" aria-label="Category" title="Visit the East"
-                        class="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700">
+                    <a href="/"
+                        class="inline-block mb-3 text-2xl text-primary-color-shade font-bold leading-5 transition-colors">
                         <?php the_title() ?>
                     </a>
-                    <div class="line-clamp-3 mb-2 text-gray-700">
+                    <div class="line-clamp-3 text-gray-700 my-3">
                         <p class="">
                             <?php the_content() ?>
                         </p>
                     </div>
-                    <a href="<?php the_permalink() ?>" aria-label=""
-                        class="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">
+                    <a href="<?php the_permalink() ?>" class="inline-flex items-center transition duration-200 text-primary-color hover:text-primary-color-tint hover:underline">
                         Leia mais
                     </a>
                 </div>
